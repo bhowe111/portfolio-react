@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div className="nav-wrapper">
-      <p style="color: var(--mainText)">Change Theme</p>
+      <p className="change-theme">Change Theme</p>
       <ul className="navigation">
         <li data-mode="light" id="light-mode" className="theme-dot"></li>
         <li data-mode="gold" id="gold-mode" className="theme-dot"></li>
